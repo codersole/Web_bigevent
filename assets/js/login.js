@@ -39,10 +39,12 @@ $(function() {
   $('#form_reg').on('submit', function(e) {
     // 阻止默认提交行为
     e.preventDefault();
+    // console.log('11');
     let data = { username: $('.reg_box [name=username]').val(), password: $('.reg_box [name=password]').val()}
     $.post('/api/reguser', data, function(res) {
       if(res.status != 0) {
-        return layer.msg(res.message)
+        console.log(res.message);
+        // return layer.msg(res.message)
       }
       layer.msg('注册成功，请登录！')
       // 模拟点击行为
@@ -53,7 +55,7 @@ $(function() {
   $('#form_login').on('submit', function(e) {
     // 阻止默认提交行为
     e.preventDefault();
-    let data ={username: $('.login_box [name=username]'), password: '.login_box [name=password]'}
+    // var data ={username: $('.login_box [name=username]'), password: '.login_box [name=password]'}
     $.ajax({
       url: '/api/login',
       method: 'POST',
