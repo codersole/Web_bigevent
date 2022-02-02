@@ -1,0 +1,18 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #eef2f5;
+}
+body .layui-card {
+  margin: 20px;
+  background-color: #f9fffb;
+}
+body .layui-card .layui-card-header {
+  font-size: 18px;
+}
+body .layui-card .layui-card-body .layui-form {
+  width: 500px;
+}
+body .layui-card .layui-card-body .layui-form .layui-form-label {
+  font-size: 16px;
+}

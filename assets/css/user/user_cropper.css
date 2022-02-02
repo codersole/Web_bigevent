@@ -1,0 +1,63 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #eef2f5;
+}
+body .layui-card {
+  margin: 20px;
+  background-color: #f9fffb;
+  padding-bottom: 30px;
+}
+body .layui-card .layui-card-header {
+  font-size: 18px;
+}
+body .layui-card .layui-card-body .row1 {
+  display: flex;
+  flex: 1;
+  justify-content: left;
+}
+body .layui-card .layui-card-body .row1 .cropper-box {
+  width: 480px;
+  height: 480px;
+}
+body .layui-card .layui-card-body .row1 .cropper-box img {
+  width: 480px;
+  height: 480px;
+}
+body .layui-card .layui-card-body .row1 .preview-box {
+  margin-left: 50px;
+}
+body .layui-card .layui-card-body .row1 .preview-box div .img-preview {
+  position: relative;
+  border-radius: 50%;
+  background-color: salmon;
+  margin: 0 auto;
+  overflow: hidden;
+}
+body .layui-card .layui-card-body .row1 .preview-box div .img-preview p {
+  position: absolute;
+  width: 200px;
+  bottom: -25px;
+  left: 50%;
+  font-size: 18px;
+  transform: translateX(-50%);
+  text-align: center;
+}
+body .layui-card .layui-card-body .row1 .preview-box div .w100 {
+  width: 200px;
+  height: 200px;
+}
+body .layui-card .layui-card-body .row1 .preview-box div .w50 {
+  margin-top: 60px;
+  width: 100px;
+  height: 100px;
+}
+body .layui-card .layui-card-body .row2 {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+body .layui-card .layui-card-body .row2 #avater {
+  display: none;
+  position: absolute;
+}

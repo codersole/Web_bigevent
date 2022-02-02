@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #eef2f5;
+    .layui-card {
+        margin: 20px;
+        background-color: rgb(249, 255, 251);
+        // width: 500px;
+        padding-bottom: 30px;
+        .layui-card-header {
+            font-size: 18px;
+        }
+        .layui-card-body {
+            .row1 {
+                display: flex;
+                flex: 1;
+                justify-content: left;
+                .cropper-box {
+                    width: 480px;
+                    height: 480px;
+                    img {
+                        width: 480px;
+                        height: 480px;
+                    }
+                }
+                .preview-box {
+                    margin-left: 50px;
+                    // display: flex;
+                    // flex-direction: column;
+                    // align-items: center;
+                    div {
+                        .img-preview {
+                            position: relative;
+                            border-radius: 50%;
+                            background-color: salmon;
+                            margin: 0 auto;
+                            overflow: hidden;
+                            p {
+                                position: absolute;
+                                width: 200px;
+                                bottom: -25px;
+                                left: 50%;
+                                font-size: 18px;
+                                transform: translateX(-50%);
+                                text-align: center;
+                            }
+                        }
+                        .w100 {
+                            width: 200px;
+                            height: 200px;
+                        }
+                        .w50 {
+                            margin-top: 60px;
+                            width: 100px;
+                            height: 100px;
+                        }
+                       
+                        
+                    }
+                }
+                
+            }
+            .row2 {
+                display: flex;
+                flex: 1;
+                justify-content: center;
+                #avater {
+                    display: none;
+                    position: absolute;
+                }
+            }
+        }
+    }
+}
