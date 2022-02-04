@@ -1,0 +1,26 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #eef2f5;
+}
+body .layui-card {
+  margin: 20px;
+  background-color: #f9fffb;
+}
+body .layui-card .layui-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+body #table-add .putup .layui-input-block,
+body #table-edit .putup .layui-input-block {
+  margin-top: 40px;
+  margin-left: 0;
+  text-align: center;
+}
+body #table-add input,
+body #table-edit input {
+  margin-top: 20px;
+  width: 80%;
+}

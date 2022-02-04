@@ -1,0 +1,42 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #eef2f5;
+}
+body .layui-card {
+  margin: 20px;
+  background-color: #f9fffb;
+}
+body .layui-card .layui-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+body .layui-card .layui-card-body .layui-form-item {
+  position: relative;
+}
+body .layui-card .layui-card-body .layui-form-item .ct {
+  margin-left: 200px;
+}
+body .layui-card .layui-card-body .layui-form-item .cover-box .cover-left {
+  margin-right: 50px;
+  width: 400px;
+  height: 277px;
+}
+body .layui-card .layui-card-body .layui-form-item .cover-box .cover-right {
+  position: absolute;
+  top: 0;
+  left: 500px;
+  width: 200px;
+  height: 140px;
+  text-align: center;
+}
+body .layui-card .layui-card-body .layui-form-item .cover-box .cover-right .img-preview {
+  width: 200px;
+  height: 140px;
+  overflow: hidden;
+}
+body .layui-card .layui-card-body .layui-form-item .cover-box .cover-right button {
+  margin-top: 20px;
+}

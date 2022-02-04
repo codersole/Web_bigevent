@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eef2f5;
+}
+body .layui-card {
+  margin: 20px;
+  background-color: #f9fffb;
+}
+body .layui-card .layui-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+}
+body .layui-card .layui-card-body .layui-form-item .layui-input-block {
+  margin-left: 0;
+}
